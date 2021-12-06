@@ -1,0 +1,52 @@
+*{ /*Genel seçici*/
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+table, tr, td, th{
+    border: 2px solid #666;
+    border-collapse: collapse;/*Sütunları birleştirdi.*/
+}
+
+td, th{
+    padding: 5px;
+    width: 200px;
+}
+
+tr td:nth-child(1){
+    /*background-color: yellow;*/
+}
+
+tr td:nth-child(2){
+    font-weight: bold;/*Kalın Yazı için kullandık.*/
+}
+
+
+
+tr td:nth-child(3){ /*1.satır 3.sütunu tamamen ortaladı */
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){/*Tablonun orta kısmındaki (tek) satırların arka plan rengini değiştiri*/
+    background-color: aliceblue;
+}
+tbody tr:nth-child(even){/*Tablonun orta kısmındaki (çift) satırların arka plan rengini değiştiri*/
+    background-color: greenyellow;
+}
+
+tbody tr:first-child{/*Tablonun orta kısmındaki ilk satırı eğik yazı yapar.*/
+    font-style: italic;
+    color: red;
+}
+tbody tr:last-child{/*Tablonun orta kısmındaki son satırı eğik yazı yapar.*/
+    font-style: italic;
+    color: red;
+}
+
+tbody tr:hover{/*Tablonun orta kısmındaki satırların üzerine gelindiği zaman arka plan rengi değişsin.*/
+    background-color: red;
+}
+
+
+
+

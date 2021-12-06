@@ -1,0 +1,39 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    background-color: #666;
+}
+
+
+
+#elem1 {
+    background-color: #ff8899;
+}
+
+#elem2 {
+    background-color: blue;
+}
+
+#elem3 {
+    background-color: rgb(123, 65, 12);
+}
+
+#elem4 {
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    height: 1500px;
+    width: 2000px;
+    color: white;
+    background-image: url("aurora.jpg");
+    background-repeat: repeat; /* resmi tekrarlar. Sadece bu satır yazılırsa hem x hem de y eksenin de tekrarlanır. */
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+
+}

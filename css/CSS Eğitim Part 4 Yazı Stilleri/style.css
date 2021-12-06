@@ -1,0 +1,36 @@
+.renk{
+    color: brown;
+
+    text-align: right;
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+
+    line-height: 35px; /*Satır yüksekliği*/
+
+     letter-spacing: 5px;  /*HARFLER ARASI BOŞLUK */
+
+}
+
+a{
+    text-decoration: none; /*Yazının dekorasyonu olmasın*/
+    color: #f00;
+}
+.trans{
+
+    text-transform: lowercase; /*Bütün harfler küçük*/
+    text-transform: uppercase; /*Bütün harfler büyük*/
+    text-transform: capitalize; /*Her kelimenin baş harfi büyük*/
+
+    text-indent: 50px; /*Cümlenin başlangıcına boşluk bırakmak için kullanılır.*/
+
+    word-spacing: 20px; /*Kelimeler arası boşluk*/
+
+
+}
+
+
+
+
+
+

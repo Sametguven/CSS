@@ -1,0 +1,53 @@
+*{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 10px;
+}
+
+/*position:html etiketlerimizi konumlandırır,pozisyonlarını değiştirir.*/
+
+.kutu1{
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    display: none;/*Göremeyiz*/
+    display: block;/*Görürüz*/
+    /* display: Ekranda görmemizi istediği noktaları gösterir*/
+    float: left;
+    margin-right: 10px;
+}
+
+
+.kutu2{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse; 
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}      
+
+
+.kutu3{
+    width: 100px;
+    height: 100px;
+    background-color: coral;  
+    float: left;
+    margin-right: 10px; 
+    position: absolute;
+    top: 100px;
+    right: 100px;      
+}
+
+.kutu3:hover{/*Kutu3 üzerine geldiğimizde sağ tarafa 0px olsun*/
+    right: 0px;
+    transition: all ease-in 0.5s;
+}
+
+.kutu4{
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;  
+    float: left;

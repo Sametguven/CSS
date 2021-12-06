@@ -1,0 +1,25 @@
+*{/*Bütün sayfaya etki eder.*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+.menu{
+    list-style-type: none;/*İşaretleri kaldırdık*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    float: left;
+    margin-right: 5px;
+}
+
+.menu li a{
+    text-decoration: none; 
+    color: white;
+    background-color: coral;
+    padding: 5px 10px;
+}
+.menu li a:hover{
+    background-color: rgba(255, 127, 80, 0.472);
+}

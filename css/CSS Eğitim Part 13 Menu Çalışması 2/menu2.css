@@ -1,0 +1,37 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+  
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(0, 0, 0, 0.78) ;
+    height: 35px;
+    line-height: 35px;    
+    border-bottom: 1px solid; /*.menu li a:hover ' dan farkı çerçeve içereide oldu,dışarıya doğru çıkıntı oluşturmadı.*/
+}
+
+.menu li{
+    float: left;
+      
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #ccc;
+    display: block;/* a, li kadar yer kapladı*/
+    padding: 0px 10px;
+}
+
+.menu li a:hover{
+    color: orange;
+    background-color: black;
+    border-bottom: 1px solid orange;
+    transition: all ease-in 1s;
+    /*transition: Animasyonlu geçiş için kullanıyoruz.*/
+}
